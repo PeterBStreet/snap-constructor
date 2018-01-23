@@ -8,10 +8,15 @@
  * Time: 8:13 AM
  */
 
+/*
+  * Define class state and behavior
+*/
 class motorcycle {
 	private $year ; private $make ; private $model ; private $cylinders ;
 }
-
+/*
+ * Encapsulation or accessor methods
+*/
 class motorcycle {
 	public function getyear () {
 		return( $this −> year);
@@ -26,6 +31,9 @@ class motorcycle {
 		return( $this −> cylinders);
 	}
  }
+/*
+ * Mutator Methods
+ */
 
 class motorcycle {
 	public function setyear($newYear) {
@@ -45,3 +53,6 @@ class motorcycle {
 }
 		$this−>cylinders = $newCylinders ;
 	} }
+/*
+ * Constructor
+*/
