@@ -56,3 +56,11 @@ class motorcycle {
 /*
  * Constructor
 */
+class motorcycle {
+	public function construct ($newYear , $newMake, $newModel, $newCylinders ) {
+		$this −> setYear ($newYear) ;
+		$this −> setMake ($newMake) ;
+		$this −> setModel ($newModel) ;
+		$this −> setCylinders ($newCylinders) ;
+	}
+}
