@@ -71,3 +71,9 @@ $bmw = new motorcycle(”1997”, "BMW", "F650", 1);
 // change the object ’s state $honda−>setCylinders (8) ;
 // access the object ’s state
 echo $honda−>getCylinders() . ”<br />”;
+
+/*
+ * Georges answer
+ */
+
+return($this->)
